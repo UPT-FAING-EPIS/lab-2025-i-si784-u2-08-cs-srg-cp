@@ -1,0 +1,47 @@
+{
+  "Cobertura/SummaryGithub.html": {
+    "href": "Cobertura/SummaryGithub.html",
+    "title": "Summary | Calculator App",
+    "summary": "Summary Summary Generated on: 06/03/2025 - 16:59:20 Coverage date: 06/03/2025 - 16:59:18 Parser: Cobertura Assemblies: 1 Classes: 1 Files: 1 Line coverage: 100% (4 of 4) Covered lines: 4 Uncovered lines: 0 Coverable lines: 4 Total lines: 40 Covered branches: 0 Total branches: 0 Method coverage: Feature is only available for sponsors Coverage Calculator.Domain - 100% Name Line Branch Calculator.Domain 100% **** Calculator.Domain.Calculator 100%"
+  },
+  "clases.html": {
+    "href": "clases.html",
+    "title": "| Calculator App",
+    "summary": "classDiagram class Calculator Calculator : +Add() Int Calculator : +Subtract() Int Calculator : +Multiply() Int Calculator : +Divide() Int"
+  },
+  "docs/Calculator.Domain.Calculator.html": {
+    "href": "docs/Calculator.Domain.Calculator.html",
+    "title": "Class Calculator | Calculator App",
+    "summary": "Class Calculator Namespace Calculator.Domain Assembly Calculator.Domain.dll Clase que proporciona operaciones aritméticas básicas. public class Calculator Inheritance object Calculator Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Add(int, int) Suma dos números enteros. public int Add(int x, int y) Parameters x int Primer operando. y int Segundo operando. Returns int La suma de los dos operandos. Divide(int, int) Divide dos números enteros. public int Divide(int x, int y) Parameters x int Dividendo. y int Divisor. Returns int El cociente de la división. Exceptions DivideByZeroException Se lanza cuando el divisor es cero. Multiply(int, int) Multiplica dos números enteros. public int Multiply(int x, int y) Parameters x int Primer operando. y int Segundo operando. Returns int El producto de los dos operandos. Subtract(int, int) Resta dos números enteros. public int Subtract(int x, int y) Parameters x int Primer operando. y int Segundo operando. Returns int La diferencia entre el primer y segundo operando."
+  },
+  "docs/Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature.html": {
+    "href": "docs/Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature.html",
+    "title": "Class ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature | Calculator App",
+    "summary": "Class ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature Namespace Calculator.Domain.Tests.Features Assembly Calculator.Domain.Tests.dll [TestFixture] [Description(\"Como usuario quiero hacer operaciones aritmeticas para calcular resultados\")] public class ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature Inheritance object ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods FeatureSetup() [OneTimeSetUp] public virtual void FeatureSetup() FeatureTearDown() [OneTimeTearDown] public virtual void FeatureTearDown() ScenarioCleanup() public void ScenarioCleanup() ScenarioInitialize(ScenarioInfo) public void ScenarioInitialize(ScenarioInfo scenarioInfo) Parameters scenarioInfo ScenarioInfo ScenarioStart() public void ScenarioStart() TestInitialize() [SetUp] public void TestInitialize() TestTearDown() [TearDown] public void TestTearDown() UsuarioDivideDosNumerosYElResultadoEsCorrecto() [Test] [Description(\"Usuario divide dos numeros y el resultado es correcto\")] public void UsuarioDivideDosNumerosYElResultadoEsCorrecto() UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto() [Test] [Description(\"Usuario multiplica dos numeros y el resultado es correcto\")] public void UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto() UsuarioRestaDosNumerosYElResultadoEsCorrecto() [Test] [Description(\"Usuario resta dos numeros y el resultado es correcto\")] public void UsuarioRestaDosNumerosYElResultadoEsCorrecto() UsuarioSumaDosNumerosYElResultadoEsCorrecto() [Test] [Description(\"Usuario suma dos numeros y el resultado es correcto\")] public void UsuarioSumaDosNumerosYElResultadoEsCorrecto()"
+  },
+  "docs/Calculator.Domain.Tests.Features.html": {
+    "href": "docs/Calculator.Domain.Tests.Features.html",
+    "title": "Namespace Calculator.Domain.Tests.Features | Calculator App",
+    "summary": "Namespace Calculator.Domain.Tests.Features Classes ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature"
+  },
+  "docs/Calculator.Domain.Tests.Steps.CalculatorTests.html": {
+    "href": "docs/Calculator.Domain.Tests.Steps.CalculatorTests.html",
+    "title": "Class CalculatorTests | Calculator App",
+    "summary": "Class CalculatorTests Namespace Calculator.Domain.Tests.Steps Assembly Calculator.Domain.Tests.dll [Binding] public sealed class CalculatorTests Inheritance object CalculatorTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors CalculatorTests(ScenarioContext) public CalculatorTests(ScenarioContext scenarioContext) Parameters scenarioContext ScenarioContext Properties Calculadora public Calculator Calculadora { get; set; } Property Value Calculator Methods CuandoDivido() [When(\"divido\")] public void CuandoDivido() CuandoMultiplico() [When(\"multiplico\")] public void CuandoMultiplico() CuandoResto() [When(\"resto\")] public void CuandoResto() CuandoSumo() [When(\"sumo\")] public void CuandoSumo() DadoElNumero(int) [Given(\"El numero (.*)\")] public void DadoElNumero(int operando01) Parameters operando01 int EntoncesElResultadoDeberiaSer(int) [Then(\"el resultado es (.*)\")] public void EntoncesElResultadoDeberiaSer(int resultado) Parameters resultado int yElNumero(int) [Given(\"el numero (.*)\")] public void yElNumero(int operando02) Parameters operando02 int"
+  },
+  "docs/Calculator.Domain.Tests.Steps.html": {
+    "href": "docs/Calculator.Domain.Tests.Steps.html",
+    "title": "Namespace Calculator.Domain.Tests.Steps | Calculator App",
+    "summary": "Namespace Calculator.Domain.Tests.Steps Classes CalculatorTests"
+  },
+  "docs/Calculator.Domain.html": {
+    "href": "docs/Calculator.Domain.html",
+    "title": "Namespace Calculator.Domain | Calculator App",
+    "summary": "Namespace Calculator.Domain Classes Calculator Clase que proporciona operaciones aritméticas básicas."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Calculator App",
+    "summary": "This is the HOMEPAGE. Reporte Cobertura HTML Reporte Cobertura Markdown Documentacion de Clases, atributos y métodos Diagrama de Clases"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "source_base_path": "/home/runner/work/lab-2025-i-si784-u2-08-cs-srg-cp/lab-2025-i-si784-u2-08-cs-srg-cp/Calculator",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Cobertura/SummaryGithub.md",
+      "output": {
+        ".html": {
+          "relative_path": "Cobertura/SummaryGithub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "clases.md",
+      "output": {
+        ".html": {
+          "relative_path": "clases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.Calculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.Calculator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain.Calculator",
+      "Summary": "<p sourcefile=\"docs/Calculator.Domain.Calculator.yml\" sourcestartlinenumber=\"1\">Clase que proporciona operaciones aritméticas básicas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.Tests.Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.Tests.Features.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain.Tests.Features",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.Tests.Steps.CalculatorTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.Tests.Steps.CalculatorTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain.Tests.Steps.CalculatorTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.Tests.Steps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.Tests.Steps.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain.Tests.Steps",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Calculator.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Calculator.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calculator.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
