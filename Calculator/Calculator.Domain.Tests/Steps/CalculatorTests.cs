@@ -42,6 +42,18 @@ namespace Calculator.Domain.Tests.Steps
             _resultado = Calculadora.Subtract(_operador01,_operador02);
         }
 
+        [When("multiplico")]
+        public void CuandoMultiplico()
+        {
+            _resultado = Calculadora.Multiply(_operador01,_operador02);
+        }
+
+        [When("divido")]
+        public void CuandoDivido()
+        {
+            _resultado = Calculadora.Divide(_operador01,_operador02);
+        }
+
         [Then("el resultado es (.*)")]
         public void EntoncesElResultadoDeberiaSer(int resultado)
         {

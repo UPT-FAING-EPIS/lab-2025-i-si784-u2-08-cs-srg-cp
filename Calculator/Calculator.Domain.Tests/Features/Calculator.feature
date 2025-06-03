@@ -11,3 +11,15 @@ Scenario: Usuario resta dos numeros y el resultado es correcto
     And el numero 5
 	When resto
 	Then el resultado es 5
+
+Scenario: Usuario multiplica dos numeros y el resultado es correcto
+	Given El numero 10
+    And el numero 5
+	When multiplico
+	Then el resultado es 50
+
+Scenario: Usuario divide dos numeros y el resultado es correcto
+	Given El numero 10
+    And el numero 5
+	When divido
+	Then el resultado es 2
