@@ -69,6 +69,7 @@ jobs:
                 ],
                 "exclude": [
                   "_site/**",
+                  "ReporteBDD/index.html",
                   "Cobertura/index.html",
                   "docs/Calculator.Domain.html"
                 ]
@@ -119,6 +120,8 @@ jobs:
         ## [Documentacion de Clases, atributos y métodos](docs/Calculator.Domain.html)
 
         ## [Diagrama de Clases](clases.md)
+
+        ## [Reporte BDD](ReporteBDD/index.html)
         EOF
     - name: Generar documentación
       run: |

@@ -1,0 +1,35 @@
+name: Actividad - 3 | Generar Reporte BDD con SpecFlow+ LivingDoc y Publicar 
+env:
+  DOTNET_VERSION: '8.0' # la versión de .NET
+on: push
+
+jobs:
+  test-and-publish-coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Configurando la versión de NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+    - name: Restore dependencies & Run tests with coverage
+      run: |
+        cd Calculator
+        dotnet restore
+        dotnet test --collect:"XPlat Code Coverage"
+    # living install
+    - name: Install living Specflow +LivingDoc
+      run: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+    - name: Generate bdd Report
+      run: |
+        cd Calculator
+        mkdir ReporteBDD
+        livingdoc test-assembly ./Calculator.Domain.Tests/bin/Debug/net8.0/Calculator.Domain.Tests.dll -t ./Calculator.Domain.Tests/bin/Debug/net8.0/TestExecution.json -o ReporteBDD/index.html
+    - name: Deploy bdd report to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: Calculator/ReporteBDD
+        destination_dir: ReporteBDD
+        keep_files: true 
