@@ -69,9 +69,7 @@ jobs:
                 ],
                 "exclude": [
                   "_site/**",
-                  "ReporteBDD/index.html",
-                  "Cobertura/index.html",
-                  "docs/Calculator.Domain.html"
+                  "ReporteBDD/index.html"
                 ]
               }
             ],
@@ -79,6 +77,11 @@ jobs:
               {
                 "files": [
                   "images/**"
+                ]
+              },
+              {
+                "files": [
+                  "Cobertura/**"
                 ]
               }
             ],
